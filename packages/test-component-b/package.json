@@ -1,5 +1,5 @@
 {
-  "name": "@test/test-component-1",
+  "name": "@test/test-component-b",
   "version": "0.0.4",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -27,5 +27,6 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "86d8dbca5cffd3451e264541838284995ad7268b"
 }
