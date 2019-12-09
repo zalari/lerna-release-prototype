@@ -8,6 +8,7 @@
     "start:test-registry": "docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio:4",
     "build": "lerna run build",
     "lerna": "lerna",
+    "bootstrap": "lerna bootstrap",
     "modify:component-a": "echo \"#change\" >> packages/test-component-a/.changed && git add packages/test-component-a/.changed && git commit -m 'change test-component a'",
     "modify:component-b": "echo \"#change\" >> packages/test-component-b/.changed && git add packages/test-component-b/.changed && git commit -m 'change test-component b'",
     "publish-all": "lerna publish"
