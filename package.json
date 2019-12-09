@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:test-registry": "docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio:4",
-    "lerna": "lerna"
+    "build": "lerna run build",
+    "lerna": "lerna",
+    "modify:component-a": "echo \"#change\" >> packages/test-component-a/.changed && git add packages/test-component-1/.changed && git commit -m 'change test-component a'",
+    "modify:component-b": "echo \"#change\" >> packages/test-component-b/.changed && git add packages/test-component-1/.changed && git commit -m 'change test-component b'",
+    "publish-all": "lerna publish"
   },
   "repository": {
     "type": "git",
