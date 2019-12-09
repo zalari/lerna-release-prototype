@@ -11,7 +11,9 @@
     "bootstrap": "lerna bootstrap",
     "modify:component-a": "echo \"#change\" >> packages/test-component-a/.changed && git add packages/test-component-a/.changed && git commit -m 'change test-component a'",
     "modify:component-b": "echo \"#change\" >> packages/test-component-b/.changed && git add packages/test-component-b/.changed && git commit -m 'change test-component b'",
-    "publish-all": "lerna publish"
+    "modify:component-c": "echo \"#change\" >> packages/test-component-c/.changed && git add packages/test-component-c/.changed && git commit -m 'change test-component c'",
+    "publish-all": "lerna publish",
+    "publish-all:canary": "lerna publish --canary"
   },
   "repository": {
     "type": "git",
