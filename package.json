@@ -15,7 +15,8 @@
     "publish-all": "lerna version",
     "publish-all:canary": "lerna publish --canary",
     "create-topic-branch": "git checkout -b",
-    "finish-topic-branch": "git checkout master && git merge"
+    "finish-topic-branch": "git checkout master && git merge",
+    "delete-topic-branch": "git branch -d"
   },
   "repository": {
     "type": "git",
