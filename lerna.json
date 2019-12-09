@@ -5,9 +5,10 @@
   "version": "independent",
   "command": {
     "publish": {
-      "npmClient": "npm",
       "verifyAccess": false
-
+    },
+    "version": {
+      "allowBranch": ["master"]
     }
   }
 }
